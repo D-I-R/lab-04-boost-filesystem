@@ -3,7 +3,7 @@
 #include <iostream>
 #include "../include/AnalyserFTP.h"
 #include <boost/filesystem.hpp>
-#define p "../misc/ftp"
+#define p "/home/travis/build/CERZAR/lab-04-boost-filesystem/misc/ftp"
 
 int main(int argc, char *argv[]){
     boost::filesystem::path path = ".";
