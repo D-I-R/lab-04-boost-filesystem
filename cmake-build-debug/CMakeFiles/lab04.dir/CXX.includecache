@@ -3972,15 +3972,11 @@ unordered_map
 algorithm
 -
 
-/home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/sources/AnalyserFTP.cpp
-../include/AnalyserFTP.h
-/home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/include/AnalyserFTP.h
-utility
--
-
 /home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/sources/main.cpp
 iostream
 -
 ../include/AnalyserFTP.h
 /home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/include/AnalyserFTP.h
+boost/filesystem.hpp
+-
 
