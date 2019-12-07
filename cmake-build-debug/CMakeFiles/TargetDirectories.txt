@@ -1,0 +1,5 @@
+/home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/test.dir
+/home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/AnalyserFTP.dir
+/home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/tests.dir
