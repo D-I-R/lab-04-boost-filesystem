@@ -189,7 +189,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=AnalyserFTP
+CMAKE_PROJECT_NAME:STATIC=lab04
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -276,6 +276,12 @@ ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/bin/sysctl
+
+//Value Computed by CMake
+lab04_BINARY_DIR:STATIC=/home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/cmake-build-debug
+
+//Value Computed by CMake
+lab04_SOURCE_DIR:STATIC=/home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem
 
 //Value Computed by CMake
 template_BINARY_DIR:STATIC=/home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/cmake-build-debug

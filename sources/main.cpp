@@ -2,15 +2,15 @@
 
 #include <iostream>
 #include "../include/AnalyserFTP.h"
-#define path_to_ftp "/home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/misc/ftp"
+#define p "/home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/misc/ftp"
 
 int main(int argc, char *argv[]){
     boost::filesystem::path path = ".";
     if (argc > 1) {
         path = argv[1];
     }
-    AnalyserFTP analyzer(path_to_ftp);
-    analyzer.start_passage(path_to_ftp);
+    AnalyserFTP analyzer(p);
+    analyzer.start_passage(p);
 
     std::cout << std::endl;
     std::cout << "\tALL FILES" << std::endl;
@@ -19,7 +19,9 @@ int main(int argc, char *argv[]){
     std::cout << std::endl << std::endl;
 
     std::cout << "\tACCOUNT GROUPS INFO" << std::endl;
-    std::cout << "_________________________________________________________________" << std::endl;
+    for (int i = 0; i < 66; i++)
+        std::cout << "_";
+    std::cout << std::endl;
     analyzer.print_account_groups_info();
     std::cout << std::endl << std::endl;
     return 0;

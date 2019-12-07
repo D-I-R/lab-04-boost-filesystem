@@ -53,13 +53,13 @@ CMAKE_BINARY_DIR = /home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/cma
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/AnalyserFTP.dir/all
+all: CMakeFiles/lab04.dir/all
 all: CMakeFiles/tests.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/AnalyserFTP.dir/clean
+clean: CMakeFiles/lab04.dir/clean
 clean: CMakeFiles/tests.dir/clean
 
 .PHONY : clean
@@ -70,31 +70,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/AnalyserFTP.dir
+# Target rules for target CMakeFiles/lab04.dir
 
 # All Build rule for target.
-CMakeFiles/AnalyserFTP.dir/all:
-	$(MAKE) -f CMakeFiles/AnalyserFTP.dir/build.make CMakeFiles/AnalyserFTP.dir/depend
-	$(MAKE) -f CMakeFiles/AnalyserFTP.dir/build.make CMakeFiles/AnalyserFTP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target AnalyserFTP"
-.PHONY : CMakeFiles/AnalyserFTP.dir/all
+CMakeFiles/lab04.dir/all:
+	$(MAKE) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/depend
+	$(MAKE) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target lab04"
+.PHONY : CMakeFiles/lab04.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/AnalyserFTP.dir/rule: cmake_check_build_system
+CMakeFiles/lab04.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AnalyserFTP.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lab04.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cezar/CERZAR/workspace/labs/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/AnalyserFTP.dir/rule
+.PHONY : CMakeFiles/lab04.dir/rule
 
 # Convenience name for target.
-AnalyserFTP: CMakeFiles/AnalyserFTP.dir/rule
+lab04: CMakeFiles/lab04.dir/rule
 
-.PHONY : AnalyserFTP
+.PHONY : lab04
 
 # clean rule for target.
-CMakeFiles/AnalyserFTP.dir/clean:
-	$(MAKE) -f CMakeFiles/AnalyserFTP.dir/build.make CMakeFiles/AnalyserFTP.dir/clean
-.PHONY : CMakeFiles/AnalyserFTP.dir/clean
+CMakeFiles/lab04.dir/clean:
+	$(MAKE) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/clean
+.PHONY : CMakeFiles/lab04.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tests.dir

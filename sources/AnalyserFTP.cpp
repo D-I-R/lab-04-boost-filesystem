@@ -47,7 +47,7 @@ FinancialFile AnalyserFTP::parce_filename(std::string filename)
     file.account_number = std::stoi(filename.substr(0, filename.find('_')));
     filename = filename.substr(filename.find('_') + 1);
 
-    file.date.year = std::stoi(filename.substr(0,4));
+    file.date.year = std::stoi(filename.substr(0, 4));
     file.date.month = std::stoi(filename.substr(4, 2));
     file.date.day = std::stoi(filename.substr(6, 2));
     filename = filename.substr(8);
@@ -92,7 +92,6 @@ void AnalyserFTP::analyze_file(const fs::path& file_path)
         account_groups[file.account_number].push_back(file);
     }
     catch (const std::exception&){}
-
 }
 
 void AnalyserFTP::print_all_files()
@@ -114,8 +113,10 @@ void AnalyserFTP::print_account_groups_info()
 
         std::cout << "files: " << group.second.size() << " ";
 
-        std::cout << "lastdate: " << std::max_element(group.second.begin(), group.second.end(), CompareByDate)->date << " ";
+        std::cout << "lastdate: " << std::max_element(group.second.begin(),
+                group.second.end(), CompareByDate)->date << " ";
 
         std::cout << std::endl;
     }
 }
+

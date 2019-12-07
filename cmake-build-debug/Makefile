@@ -122,17 +122,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named AnalyserFTP
+# Target rules for targets named lab04
 
 # Build rule for target.
-AnalyserFTP: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 AnalyserFTP
-.PHONY : AnalyserFTP
+lab04: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab04
+.PHONY : lab04
 
 # fast build rule for target.
-AnalyserFTP/fast:
-	$(MAKE) -f CMakeFiles/AnalyserFTP.dir/build.make CMakeFiles/AnalyserFTP.dir/build
-.PHONY : AnalyserFTP/fast
+lab04/fast:
+	$(MAKE) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/build
+.PHONY : lab04/fast
 
 #=============================================================================
 # Target rules for targets named tests
@@ -153,7 +153,7 @@ sources/AnalyserFTP.o: sources/AnalyserFTP.cpp.o
 
 # target to build an object file
 sources/AnalyserFTP.cpp.o:
-	$(MAKE) -f CMakeFiles/AnalyserFTP.dir/build.make CMakeFiles/AnalyserFTP.dir/sources/AnalyserFTP.cpp.o
+	$(MAKE) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/sources/AnalyserFTP.cpp.o
 .PHONY : sources/AnalyserFTP.cpp.o
 
 sources/AnalyserFTP.i: sources/AnalyserFTP.cpp.i
@@ -162,7 +162,7 @@ sources/AnalyserFTP.i: sources/AnalyserFTP.cpp.i
 
 # target to preprocess a source file
 sources/AnalyserFTP.cpp.i:
-	$(MAKE) -f CMakeFiles/AnalyserFTP.dir/build.make CMakeFiles/AnalyserFTP.dir/sources/AnalyserFTP.cpp.i
+	$(MAKE) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/sources/AnalyserFTP.cpp.i
 .PHONY : sources/AnalyserFTP.cpp.i
 
 sources/AnalyserFTP.s: sources/AnalyserFTP.cpp.s
@@ -171,7 +171,7 @@ sources/AnalyserFTP.s: sources/AnalyserFTP.cpp.s
 
 # target to generate assembly for a file
 sources/AnalyserFTP.cpp.s:
-	$(MAKE) -f CMakeFiles/AnalyserFTP.dir/build.make CMakeFiles/AnalyserFTP.dir/sources/AnalyserFTP.cpp.s
+	$(MAKE) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/sources/AnalyserFTP.cpp.s
 .PHONY : sources/AnalyserFTP.cpp.s
 
 sources/main.o: sources/main.cpp.o
@@ -180,7 +180,7 @@ sources/main.o: sources/main.cpp.o
 
 # target to build an object file
 sources/main.cpp.o:
-	$(MAKE) -f CMakeFiles/AnalyserFTP.dir/build.make CMakeFiles/AnalyserFTP.dir/sources/main.cpp.o
+	$(MAKE) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/sources/main.cpp.o
 .PHONY : sources/main.cpp.o
 
 sources/main.i: sources/main.cpp.i
@@ -189,7 +189,7 @@ sources/main.i: sources/main.cpp.i
 
 # target to preprocess a source file
 sources/main.cpp.i:
-	$(MAKE) -f CMakeFiles/AnalyserFTP.dir/build.make CMakeFiles/AnalyserFTP.dir/sources/main.cpp.i
+	$(MAKE) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/sources/main.cpp.i
 .PHONY : sources/main.cpp.i
 
 sources/main.s: sources/main.cpp.s
@@ -198,7 +198,7 @@ sources/main.s: sources/main.cpp.s
 
 # target to generate assembly for a file
 sources/main.cpp.s:
-	$(MAKE) -f CMakeFiles/AnalyserFTP.dir/build.make CMakeFiles/AnalyserFTP.dir/sources/main.cpp.s
+	$(MAKE) -f CMakeFiles/lab04.dir/build.make CMakeFiles/lab04.dir/sources/main.cpp.s
 .PHONY : sources/main.cpp.s
 
 tests/test.o: tests/test.cpp.o
@@ -237,7 +237,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... AnalyserFTP"
+	@echo "... lab04"
 	@echo "... tests"
 	@echo "... sources/AnalyserFTP.o"
 	@echo "... sources/AnalyserFTP.i"

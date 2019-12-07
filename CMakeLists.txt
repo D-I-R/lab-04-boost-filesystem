@@ -18,7 +18,7 @@ HunterGate(
         SHA1 "9a3594a61227967fb92159339ba326701b287b19"
 )
 
-project(AnalyserFTP)
+project(lab04)
 string(APPEND CMAKE_CXX_FLAGS " -pedantic -Werror -Wall -Wextra")
 string(APPEND CMAKE_CXX_FLAGS " -Wno-unused-command-line-argument")
 string(APPEND CMAKE_CXX_FLAGS " -Wshadow -Wnon-virtual-dtor")
@@ -31,14 +31,14 @@ find_package(Boost CONFIG REQUIRED filesystem regex)
 find_package(Boost CONFIG REQUIRED system regex)
 
 add_executable(
-        AnalyserFTP                              # Название цели
+        lab04                              # Название цели
         ${CMAKE_CURRENT_SOURCE_DIR}/sources/AnalyserFTP.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/sources/main.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/include/AnalyserFTP.h
         sources/main.cpp sources/AnalyserFTP.cpp include/AnalyserFTP.h)
 
 target_link_libraries(
-        AnalyserFTP                         # Цель, к которой просходит линковка
+        lab04                         # Цель, к которой просходит линковка
         Boost::filesystem                        # Библиотеки, которые линкуются к цели
         Boost::system
 )
