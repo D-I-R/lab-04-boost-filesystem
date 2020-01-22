@@ -1,5 +1,3 @@
-// Copyright 2019 CERZAR
-
 #include <iostream>
 #include "../include/AnalyserFTP.h"
 #include <boost/filesystem.hpp>
