@@ -6,7 +6,7 @@
 #define p "/home/travis/build/CERZAR/lab-04-boost-filesystem/misc/ftp"
 
 int main(int argc, char *argv[]){
-  a  boost::filesystem::path path = ".";
+  aaa  boost::filesystem::path path = ".";
     if (argc > 1) {
         path = argv[1];
     }
